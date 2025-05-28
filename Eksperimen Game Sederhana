@@ -1,0 +1,358 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMX40FIccU80DcQMLNANQp9",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    },
+    "widgets": {
+      "application/vnd.jupyter.widget-state+json": {
+        "7e6edad1584d44209e3ca5108a1692c5": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "BoundedIntTextModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "BoundedIntTextModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "IntTextView",
+            "continuous_update": false,
+            "description": "Jawaban:",
+            "description_tooltip": null,
+            "disabled": false,
+            "layout": "IPY_MODEL_c54d772377fd4b428edc79ee143db502",
+            "max": 20,
+            "min": 0,
+            "step": 1,
+            "style": "IPY_MODEL_858a0dad7cf845f4b720dea7a0ee5834",
+            "value": 3
+          }
+        },
+        "c54d772377fd4b428edc79ee143db502": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "858a0dad7cf845f4b720dea7a0ee5834": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": "initial"
+          }
+        },
+        "8dde5d95c6184aadbd8cea8839f0ab8d": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "ButtonModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "ButtonModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "ButtonView",
+            "button_style": "",
+            "description": "Cek Jawaban",
+            "disabled": false,
+            "icon": "",
+            "layout": "IPY_MODEL_93ea2bbfba7149a2898d2147840cbd41",
+            "style": "IPY_MODEL_f7fa1ec266bc4eb3a1e59d8529f559cf",
+            "tooltip": ""
+          }
+        },
+        "93ea2bbfba7149a2898d2147840cbd41": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "f7fa1ec266bc4eb3a1e59d8529f559cf": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "ButtonStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "ButtonStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "button_color": null,
+            "font_weight": ""
+          }
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Atsy354/Mesin_pert4/blob/main/Eksperimen%20Game%20Sederhana\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 13,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 165,
+          "referenced_widgets": [
+            "7e6edad1584d44209e3ca5108a1692c5",
+            "c54d772377fd4b428edc79ee143db502",
+            "858a0dad7cf845f4b720dea7a0ee5834",
+            "8dde5d95c6184aadbd8cea8839f0ab8d",
+            "93ea2bbfba7149a2898d2147840cbd41",
+            "f7fa1ec266bc4eb3a1e59d8529f559cf"
+          ]
+        },
+        "id": "DqFhPqluq4oC",
+        "outputId": "1ffb1ccd-2cfd-4029-a1e1-465901fadde0"
+      },
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<IPython.core.display.HTML object>"
+            ],
+            "text/html": [
+              "<b>Berapa total jumlah hewan yang ditampilkan?</b>"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<IPython.core.display.HTML object>"
+            ],
+            "text/html": [
+              "\n",
+              "    <div style=\"font-size: 40px;\">\n",
+              "        🐵 🐵 + 🦁 = ❓\n",
+              "    </div>\n",
+              "    "
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "BoundedIntText(value=3, description='Jawaban:', max=20, style=DescriptionStyle(description_width='initial'))"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "7e6edad1584d44209e3ca5108a1692c5"
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "Button(description='Cek Jawaban', style=ButtonStyle())"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "8dde5d95c6184aadbd8cea8839f0ab8d"
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "✅ Benar! Ada 2 Monyet + 1 Singa = 3\n"
+          ]
+        }
+      ],
+      "source": [
+        "import random\n",
+        "import ipywidgets as widgets\n",
+        "from IPython.display import display, clear_output, HTML\n",
+        "\n",
+        "# Pilihan emoji dan nama\n",
+        "benda_emoji = {\n",
+        "    \"🐯\": \"Harimau\",\n",
+        "    \"🦁\": \"Singa\",\n",
+        "    \"🐵\": \"Monyet\",\n",
+        "    \"🐶\": \"Anjing\",\n",
+        "    \"😺\": \"Kucing\"\n",
+        "}\n",
+        "\n",
+        "# Pilih dua emoji acak\n",
+        "emoji1, emoji2 = random.sample(list(benda_emoji.keys()), 2)\n",
+        "jumlah1 = random.randint(1, 9)\n",
+        "jumlah2 = random.randint(1, 9)\n",
+        "jawaban_benar = jumlah1 + jumlah2\n",
+        "\n",
+        "# Tampilkan soal dalam HTML\n",
+        "def tampilkan_soal():\n",
+        "    soal_html = f\"\"\"\n",
+        "    <div style=\"font-size: 40px;\">\n",
+        "        {\" \".join([emoji1]*jumlah1)} + {\" \".join([emoji2]*jumlah2)} = ❓\n",
+        "    </div>\n",
+        "    \"\"\"\n",
+        "    display(HTML(\"<b>Berapa total jumlah hewan yang ditampilkan?</b>\"))\n",
+        "    display(HTML(soal_html))\n",
+        "\n",
+        "# Input & tombol\n",
+        "input_jawaban = widgets.BoundedIntText(\n",
+        "    value=0,\n",
+        "    min=0,\n",
+        "    max=20,\n",
+        "    description='Jawaban:',\n",
+        "    style={'description_width': 'initial'}\n",
+        ")\n",
+        "button = widgets.Button(description=\"Cek Jawaban\")\n",
+        "\n",
+        "# Fungsi cek\n",
+        "def cek_jawaban(b):\n",
+        "    clear_output()\n",
+        "    tampilkan_soal()\n",
+        "    display(input_jawaban, button)\n",
+        "    if input_jawaban.value == jawaban_benar:\n",
+        "        print(f\"✅ Benar! Ada {jumlah1} {benda_emoji[emoji1]} + {jumlah2} {benda_emoji[emoji2]} = {jawaban_benar}\")\n",
+        "    else:\n",
+        "        print(\"❌ Salah. Coba hitung lagi ya!\")\n",
+        "\n",
+        "# Hubungkan tombol\n",
+        "button.on_click(cek_jawaban)\n",
+        "\n",
+        "# Tampilkan UI\n",
+        "tampilkan_soal()\n",
+        "display(input_jawaban, button)\n"
+      ]
+    }
+  ]
+}
